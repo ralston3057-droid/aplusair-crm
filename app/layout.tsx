@@ -8,7 +8,7 @@ const nav = [
   { href: '/financing', label: 'Financing' },
   { href: '/membership', label: 'Membership' },
   { href: '/admin', label: 'Admin' }
-];
+] as const;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
