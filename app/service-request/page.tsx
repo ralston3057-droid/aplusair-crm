@@ -1,0 +1,3 @@
+export default function ServiceRequestPage() {
+  return <main className='mx-auto max-w-3xl p-6'><form className='card space-y-3'><h1 className='text-3xl font-bold'>Service Request</h1><input className='w-full rounded border p-3 bg-transparent' placeholder='Name'/><input className='w-full rounded border p-3 bg-transparent' placeholder='Phone'/><input className='w-full rounded border p-3 bg-transparent' placeholder='Address'/><textarea rows={4} className='w-full rounded border p-3 bg-transparent' placeholder='Issue details'/><button className='rounded bg-brand-500 px-4 py-3 text-white'>Book Service</button></form></main>;
+}
